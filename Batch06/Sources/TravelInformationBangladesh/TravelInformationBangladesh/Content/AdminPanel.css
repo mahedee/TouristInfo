@@ -1,0 +1,102 @@
+﻿body {
+            font-family: 'Prompt', sans-serif;
+        }
+
+        .wrapping {
+            /*border: 2px solid #529ace;*/
+            margin: 10px 10px 0px 10px;
+        }
+
+            .wrapping .jumbtron {
+                border: 2px solid;
+                min-height: 1100px;
+            }
+
+                .wrapping .jumbtron .heading {
+                    min-height: 100px;
+                    border: 2px solid;
+                    background: #529ace;
+                    width: 100%;
+                }
+
+                    .wrapping .jumbtron .heading .menu2 {
+                        margin-right: 20px;
+                        margin-left: 0px;
+                    }
+
+                    .wrapping .jumbtron .heading ul {
+                        margin-top: 25px;
+                        margin-left: 10px;
+                        padding: 0px;
+                    }
+
+                        .wrapping .jumbtron .heading ul li {
+                            display: inline;
+                            /*border: 2px solid;*/
+                            /*padding: 20px 40px;*/
+                            /*background-color: #100cdc;*/
+                        }
+
+                            .wrapping .jumbtron .heading ul li .anchor {
+                                color: white;
+                                font-weight: bolder;
+                                font-size: 20px;
+                                list-style-type: none;
+                                text-decoration: none;
+                                text-align: center;
+                                padding: 10px 40px;
+                                background-color: #100cdc;
+                            }
+
+                            /*.wrapping .jumbtron .heading ul li:hover {
+                                background-color: #808080;
+                                transition: all 1s;
+                            }*/
+
+                                .wrapping .jumbtron .heading ul li .anchor:hover {
+                                    transition: all 1s;
+                                    background-color:white;
+                                    color: black;
+                                }
+
+                .wrapping .jumbtron .bodycontent {
+                    min-height: 900px;
+                    border: 2px solid;
+                }
+
+                    .wrapping .jumbtron .bodycontent .navmenu {
+                        border-right: 2px solid;
+                        min-height: 900px;
+                        background: #529ace;
+                    }
+
+                        .wrapping .jumbtron .bodycontent .navmenu h3 {
+                            color: white;
+                        }
+
+                        .wrapping .jumbtron .bodycontent .navmenu .btnAdd {
+                            width: 280px;
+                            text-align: left;
+                        }
+
+                    .wrapping .jumbtron .bodycontent .content {
+                        border-right: 2px solid;
+                        min-height: 900px;
+                        background: #173384;
+                        color: white;
+                    }
+
+
+                .wrapping .jumbtron .footercontent {
+                    min-height: 100px;
+                    border: 2px solid;
+                    background: #529ace;
+                }
+                    .wrapping .jumbtron .footercontent h3 {
+                        font-size:20px;
+                        color:white;
+                        text-align:center;
+                    }
+                    .wrapping .jumbtron .footercontent a {
+                        color:#173384;
+                    }

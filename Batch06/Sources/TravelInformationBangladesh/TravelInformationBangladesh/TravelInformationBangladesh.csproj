@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1EDBD3CB-21D1-489C-AAF2-B065BC3EE1A9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TravelInformationBangladesh</RootNamespace>
+    <AssemblyName>TravelInformationBangladesh</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddInformationUI.aspx" />
+    <Content Include="AdminPanelPageUI.aspx" />
+    <Content Include="Content\AddInformation.css" />
+    <Content Include="Content\AdminPanel.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\ShowInformation.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\air1gmg.jpg" />
+    <Content Include="images\airbbl.jpg" />
+    <Content Include="images\airunited.jpg" />
+    <Content Include="images\greenlinebus.jpg" />
+    <Content Include="images\hanif.jpg" />
+    <Content Include="images\homearticlecoxsbazar2.jpg" />
+    <Content Include="images\homearticlejaflong.jpg" />
+    <Content Include="images\homearticlekuakata.jpg" />
+    <Content Include="images\homearticlenilgiri.jpg" />
+    <Content Include="images\homearticlesaintmartin.jpg" />
+    <Content Include="images\homearticlesajek.jpg" />
+    <Content Include="images\hotelcoralreef.jpg" />
+    <Content Include="images\hotelkollol.jpg" />
+    <Content Include="images\hotelkollolaccomod.jpg" />
+    <Content Include="images\hotelprasaad.JPG" />
+    <Content Include="images\hotelprince.jpg" />
+    <Content Include="images\hotelseagull.jpg" />
+    <Content Include="images\hotelseapalace.jpg" />
+    <Content Include="images\hoteluniresort.jpg" />
+    <Content Include="images\mohaagar.jpg" />
+    <Content Include="images\resaintmartin.jpg" />
+    <Content Include="images\rsz_1slidernilgiri.jpg" />
+    <Content Include="images\rsz_slidecoxsbazar.jpg" />
+    <Content Include="images\rsz_slidecoxsbazar2.jpg" />
+    <Content Include="images\rsz_slidekuakata.jpg" />
+    <Content Include="images\rsz_slidercoxsbazar3.jpg" />
+    <Content Include="images\rsz_slidercoxsbazar4.jpg" />
+    <Content Include="images\rsz_slidersajek.jpg" />
+    <Content Include="images\rsz_slidersajek2.jpg" />
+    <Content Include="images\rsz_slidesundarban.jpg" />
+    <Content Include="images\salambus.jpg" />
+    <Content Include="images\Shohaghbus.jpg" />
+    <Content Include="images\silkline.jpg" />
+    <Content Include="images\slidecoxsbazar.jpg" />
+    <Content Include="images\slidecoxsbazar2.jpg" />
+    <Content Include="images\slidekuakata.jpg" />
+    <Content Include="images\slidercoxsbazar3.jpg" />
+    <Content Include="images\slidercoxsbazar4.JPG" />
+    <Content Include="images\sliderjaflong.JPG" />
+    <Content Include="images\slidernilgiri.jpg" />
+    <Content Include="images\slidersajek.jpg" />
+    <Content Include="images\slidersajek2.jpg" />
+    <Content Include="images\slidesundarban.jpg" />
+    <Content Include="images\soudiabus.jpg" />
+    <Content Include="images\subornaexpress.jpg" />
+    <Content Include="images\turna.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="ShowInformationUI.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInformationUI.aspx.cs">
+      <DependentUpon>AddInformationUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddInformationUI.aspx.designer.cs">
+      <DependentUpon>AddInformationUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanelPageUI.aspx.cs">
+      <DependentUpon>AdminPanelPageUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanelPageUI.aspx.designer.cs">
+      <DependentUpon>AdminPanelPageUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\DestinationUpazilamanager.cs" />
+    <Compile Include="BLL\DistrictManager.cs" />
+    <Compile Include="BLL\DivisionManager.cs" />
+    <Compile Include="BLL\FromUpazilaManager.cs" />
+    <Compile Include="BLL\HospitalManager.cs" />
+    <Compile Include="BLL\PoliceStationManager.cs" />
+    <Compile Include="BLL\ResortManager.cs" />
+    <Compile Include="BLL\RestaurantManager.cs" />
+    <Compile Include="BLL\TouristSpotManager.cs" />
+    <Compile Include="DAL\DestinationUpazilaGateway.cs" />
+    <Compile Include="DAL\DistrictGateway.cs" />
+    <Compile Include="DAL\DivisionGateway.cs" />
+    <Compile Include="DAL\FromUpazilaGateway.cs" />
+    <Compile Include="DAL\HospitalGateway.cs" />
+    <Compile Include="DAL\PoliceStationGateway.cs" />
+    <Compile Include="DAL\ResortGateway.cs" />
+    <Compile Include="DAL\RestaurantGateway.cs" />
+    <Compile Include="DAL\TouristSpotGateway.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Commenter.cs" />
+    <Compile Include="Model\DestinationUpazila.cs" />
+    <Compile Include="Model\District.cs" />
+    <Compile Include="Model\Division.cs" />
+    <Compile Include="Model\FromUpazila.cs" />
+    <Compile Include="Model\Hospital.cs" />
+    <Compile Include="Model\PoliceStation.cs" />
+    <Compile Include="Model\Resort.cs" />
+    <Compile Include="Model\Restaurant.cs" />
+    <Compile Include="Model\TouristSpot.cs" />
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowInformationUI.aspx.cs">
+      <DependentUpon>ShowInformationUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowInformationUI.aspx.designer.cs">
+      <DependentUpon>ShowInformationUI.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1893/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
